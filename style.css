@@ -13,6 +13,20 @@ body {
   text-align: center;
 }
 
+body.main, div.container {
+  margin-top: 30px;
+}
+
+div.container, footer {
+  margin: 0 auto 30px;
+  width: 820px;
+  padding: 0;
+}
+
+div.container {
+  width: 640px;
+  margin: auto;
+}
 
 a {
   color: #336699;
@@ -111,11 +125,10 @@ nav a.sign-in:hover {
 /*                                                             */  
 
 body.main div.container {
-  width: 820px;
   padding-left: 15px;
   overflow: hidden;
-  margin: 10px 40px 0 200px;
-  display: block;
+  margin-bottom: 40px;
+  margin-top: 10px;
 }
 
 body.main a.box {
