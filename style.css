@@ -1,3 +1,8 @@
+/*                                                             */
+/* ------------------------- GLOBAL STYLES ------------------- */
+/*                                                             */  
+
+
 body {
   padding: 30px;
   font-family: "Times New Roman" , Arial, "Lucida Grande", Verdana, sans-serif;
@@ -7,6 +12,7 @@ body {
   color: #222;
   text-align: center;
 }
+
 
 a {
   color: #336699;
@@ -48,6 +54,12 @@ h5 {
   margin: 10px 0;
 }
 
+h6 {
+  margin: 5px 0 10px;
+  font-size: 14px;
+  color: #cc0000;
+}
+
 hr {
   clear: both;
   border: 0;
@@ -55,4 +67,79 @@ hr {
   color: transparent;
   height: 12px;
 }
+
+/*                                                             */
+/* ------------------------- NAVIGATION ---------------------- */
+/*                                                             */  
+
+nav {
+  text-align: right;
+  padding: 10px;
+  margin: -30px 0 20px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+  margin: 0px;
+  padding: 0 10px 0;
+  font-size: 12px;
+  font-family: Verdana, sans-serif;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: #18afe0;
+}
+
+
+nav a.sign-in {
+  color: #18afe0;
+}
+
+nav a.sign-in:hover {
+  color: #222;
+}
+
+/*                                                             */
+/* ------------------------- BODY ---------------------------- */
+/*                                                             */  
+
+body.main div.container {
+  width: 820px;
+  padding-left: 15px;
+  overflow: hidden;
+  margin: 10px 40px 0 200px;
+  display: block;
+}
+
+body.main a.box {
+  width: 160px;
+  margin: 15px 20px 5px;
+  float: left;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-box-shadow: 0 0 5px #efefef;
+  -moz-box-shadow: 0 0 5px #efefef;
+  box-shadow: 0 0 5px #efefef;
+  padding: 20px 10px 10px;
+  text-decoration: none;
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#efefef));
+  background: -moz-linear-gradient(top,  #fff,  #efefef); 
+}  
+
+
+
+
+
+
+
 
