@@ -2,7 +2,6 @@
 /* ------------------------- GLOBAL STYLES ------------------- */
 /*                                                             */  
 
-
 body {
   padding: 30px;
   font-family: "Times New Roman" , Arial, "Lucida Grande", Verdana, sans-serif;
@@ -13,9 +12,21 @@ body {
   text-align: center;
 }
 
-body.main, div.container {
-  margin-top: 30px;
+body.main {
+  margin-top: 8px;
 }
+
+body.main, div.container {
+  padding-left: 15px;
+  overflow: hidden;
+}
+
+div.container {
+  width: 640px;
+  margin: 30px;
+}
+
+
 
 div.container, footer {
   margin: 0 auto 30px;
@@ -23,10 +34,7 @@ div.container, footer {
   padding: 0;
 }
 
-div.container {
-  width: 640px;
-  margin: auto;
-}
+
 
 a {
   color: #336699;
@@ -124,23 +132,18 @@ nav a.sign-in:hover {
 /* ------------------------- BODY ---------------------------- */
 /*                                                             */  
 
-div.product-box {
-  margin-bottom: 15px;
-}
-
-
-
-body.main div.container {
-  padding-left: 15px;
-  overflow: hidden;
+div.box-container {
   margin-bottom: 40px;
-  margin-top: 10px;
+  overflow: hidden;
 }
+
+
+
 
 body.main a.box {
   width: 160px;
-  margin: 15px 15px 5px;
-  float: left;
+  margin: 15px 20px 0px 5px;
+  display: inline-block;
   border: 1px solid #e8e8e8;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -155,6 +158,17 @@ body.main a.box {
   background: -moz-linear-gradient(top,  #fff,  #efefef); 
 }  
 
+body.main, div.box-container {
+  padding-left: 15px;
+  overflow: hidden;
+  margin bottom: 40px;
+  margin-top: 10px;
+}
+
+body.main div.box-container div.headline {
+  width: 820px;
+  margin-left: -20px;
+}
 
 
 
