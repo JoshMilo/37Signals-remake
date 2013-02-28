@@ -142,7 +142,7 @@ div.box-container {
 
 body.main a.box {
   width: 160px;
-  margin: 15px 20px 0px 5px;
+  margin: 15px 20px 5px;
   display: inline-block;
   border: 1px solid #e8e8e8;
   border-radius: 5px;
@@ -151,7 +151,7 @@ body.main a.box {
   -webkit-box-shadow: 0 0 5px #efefef;
   -moz-box-shadow: 0 0 5px #efefef;
   box-shadow: 0 0 5px #efefef;
-  padding: 20px 10px 10px;
+  padding: 20px 10px 1px;
   text-decoration: none;
   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
   background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#efefef));
@@ -169,6 +169,66 @@ body.main div.box-container div.headline {
   width: 820px;
   margin-left: -20px;
 }
+
+body.main div.product-box h3 {
+  font-size: 21px;
+  margin: 3px 0 0 10px;
+}
+
+body.main div.product-box h3 span {
+  text-decoration: underline;
+}
+
+body.main div.product-box h3 sup {
+  color: #999999;
+  font-size: 12px;
+}
+
+body.main div.product-box h4 {
+  margin: 8px 0 10px;
+  font-size: 14px;
+  color: #cc0000;
+}
+
+body.main div.product-box p {
+  color: #222;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+body.main div.customers div.meet {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: -125;
+}
+
+body.main div.customers div.meet img.arrow {
+  position: absolute;
+  width: 69px;
+  height: 36px;
+  left: 1px;
+  top: 65px;
+}
+
+body.main div.customers div.meet a.thumbnails {
+  display: block;
+  margin-left: -120px;
+  width: 143px;
+  height: 104px;
+  background: url('images/img-customers.png') no-repeat 0 0;
+  text-indent: -10000em;
+}
+
+body.main div.customers div.meet a.thumbnails:hover {
+  background: url('images/img-customers.png') no-repeat 0 bottom;
+}
+
+body.main div.customers div.meet p {
+  font-size: 13px;
+  margin-top: 0px;
+  margin-left: -120px;
+}
+
 
 
 
