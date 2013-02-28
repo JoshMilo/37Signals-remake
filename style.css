@@ -1,7 +1,4 @@
-/*                                                             */
-/* ------------------------- GLOBAL STYLES ------------------- */
-/*                                                             */  
-
+  
 body {
   padding: 30px;
   font-family: "Times New Roman" , Arial, "Lucida Grande", Verdana, sans-serif;
@@ -18,7 +15,6 @@ body.main {
 
 body.main, div.container {
   padding-left: 15px;
-  overflow: hidden;
 }
 
 div.container {
@@ -26,15 +22,11 @@ div.container {
   margin: 30px;
 }
 
-
-
 div.container, footer {
   margin: 0 auto 30px;
   width: 820px;
   padding: 0;
 }
-
-
 
 a {
   color: #336699;
@@ -90,10 +82,9 @@ hr {
   height: 12px;
 }
 
-/*                                                             */
-/* ------------------------- NAVIGATION ---------------------- */
-/*                                                             */  
 
+/* NAVIGATION */
+ 
 nav {
   text-align: right;
   padding: 10px;
@@ -119,7 +110,6 @@ nav ul li a:hover {
   color: #18afe0;
 }
 
-
 nav a.sign-in {
   color: #18afe0;
 }
@@ -128,17 +118,11 @@ nav a.sign-in:hover {
   color: #222;
 }
 
-/*                                                             */
-/* ------------------------- BODY ---------------------------- */
-/*                                                             */  
+/*  CONTAINER */
 
 div.box-container {
   margin-bottom: 40px;
-  overflow: hidden;
 }
-
-
-
 
 body.main a.box {
   width: 160px;
@@ -158,9 +142,9 @@ body.main a.box {
   background: -moz-linear-gradient(top,  #fff,  #efefef); 
 }  
 
+
 body.main, div.box-container {
   padding-left: 15px;
-  overflow: hidden;
   margin bottom: 40px;
   margin-top: 10px;
 }
@@ -223,11 +207,289 @@ body.main div.customers div.meet a.thumbnails:hover {
   background: url('images/img-customers.png') no-repeat 0 bottom;
 }
 
+
 body.main div.customers div.meet p {
   font-size: 13px;
   margin-top: 0px;
   margin-left: -120px;
 }
+
+body.main div.customers div.meet p, a:hover {
+  color: #369;
+}
+
+
+body.main div.customers a.world {
+  float: right;
+  height: 200px;
+  width: 200px;
+}
+
+body.main div.customers div.companies p {
+  text-align: left;
+  padding-top: 10px;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 1.3em;
+  color: #666;
+}
+
+body.main div.customers div.companies img {
+  margin-bottom: 20px;
+}
+
+/* MANIFESTO */
+
+body.main div.column-left {
+  width: 380px;
+  float: left;
+  margin-left: 10px;
+} 
+
+body.main div.manifesto div.belief {
+  text-align: left;
+  line-height: 1.4em;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+body.main div.manifesto div.belief {
+  margin-top: 10px;
+}
+
+body.main div.manifesto div.belief {
+  margin-bottom: 10px;
+}
+
+body.main div.manifesto div.belief h3 {
+  float: left;
+  font-size: 58px;
+  font-weight: 500;
+  line-height: normal;
+  margin: -10px 15px 0 0;
+  color: #ccc;
+  width: 30px;
+}
+
+body.main div.manifesto div.belief h4 {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #cc0000;
+}
+
+body.main div.manifesto div.belief p {
+  margin: 1px 0 20px 45px;
+}
+
+body.main div.column-right {
+  width: 380px;
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 20px;
+} 
+
+/*  BOOK AREA */
+
+body.main div.rework div.quotes {
+  padding-top: 10px;
+}
+
+body.main div.rework div.quotes h3 {
+  color: #888;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 20px;
+  margin: 35px 0 10px;
+}
+
+body.main div.rework div.quotes p {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+
+body.main div.rework div.book {
+  position: absolute;
+  margin-left: 790px;
+  margin-top: 50px;
+}
+
+body.main div.rework div.book img.arrow {
+  position: absolute;
+  top: 70px;
+  left: -50px;
+}
+
+body.main div.rework div.book p {
+  font-size: 12px;
+  margin-top: 3px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+body.main div.rework div.book p :hover {
+  color: #369;
+}
+
+body.main div.rework div.book p a:hover {
+  color: #369;
+}
+
+body.main div.rework #book {
+  width: 293px;
+  height: 400px;
+  float: left;
+}
+
+body.main #end_tagline {
+  width: 900px;
+}
+
+/* FOOTER  */
+
+footer div.products {
+  clear: both;
+  width: 570px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+footer div.products a.app {
+  width: 160px;
+  overflow: hidden;
+  margin: 5px;
+  float: left;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+footer div.products a.app:hover h3 {
+  color: #6699cc;
+}
+
+footer div.products a.app_end {
+  margin-right: 0;
+}
+
+footer div.products a.app h3 {
+  font-size: 21px;
+  font-family: Arial;
+  margin: 3px 0 0 10px;
+  color: #222;
+  font-weight: bold;
+}
+
+footer div.products a.app h3 sup {
+  color: #999;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+footer div.products a.app h4 {
+  margin: 5px 0;
+  font-size: 14px;
+  font-family: Arial;
+  color: #cc0000;
+}
+
+footer div.products a.app p {
+  color: #666;
+  font-size: 12px;
+  line-height: 1.4em;
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-family: Arial;
+}
+
+footer {
+  margin-bottom: 40px;
+  width: 670px;
+}
+
+footer div.others {
+  margin-left: -15px;
+}
+
+footer div.column {
+  float: left;
+  width: 300px;
+  padding: 0;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+footer div.column.right {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+footer h3 {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #cc0000;
+}
+
+footer div.column h3 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e8e8e8;
+  font-family: Arial;
+}
+
+footer hr {
+  margin: 30px 0;
+}
+
+footer ul {
+  margin: 0; padding: 0;
+}
+
+footer ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+footer ul li.highlight {
+  padding: 5px 0;
+  font-family: Arial;
+}
+
+footer ul li a {
+  text-decoration: none;
+}
+
+footer ul li.highlight a {
+  font-size: 20px; 
+  font-weight: 600;
+  font-family: Times;
+  color: #222;
+}
+
+footer p {
+  font-size: 12px;
+  color: #666;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
